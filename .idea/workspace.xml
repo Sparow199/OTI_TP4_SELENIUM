@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf150de-cca1-4584-ab99-a6073b4f409d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/ExampleTest.java" afterPath="$PROJECT_DIR$/test/SeleniumTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/SeleniumTest.java" afterPath="$PROJECT_DIR$/test/SeleniumTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +23,9 @@
       <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/SeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="310" column="9" lean-forward="true" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +129,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumTest.moneyUnknownOperationTest">
+  <component name="RunManager" selected="JUnit.SeleniumTest">
+    <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="OTI_TP4_SELENIUM" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="SeleniumTest.moneyNegativeResultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="OTI_TP4_SELENIUM" />
@@ -162,26 +178,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
       <option name="METHOD_NAME" value="moneyNegativevalueTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SeleniumTest.moneyOperationIncompatibleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="OTI_TP4_SELENIUM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="METHOD_NAME" value="moneyOperationIncompatibleTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -316,19 +312,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyOperationIncompatibleTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativevalueTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativeResultTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownCurrencyTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownOperationTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativevalueTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativeResultTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownCurrencyTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownOperationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownOperationTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownCurrencyTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativevalueTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativeResultTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyOperationIncompatibleTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SeleniumTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownOperationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyUnknownCurrencyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativevalueTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumTest.moneyNegativeResultTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,13 +341,13 @@
       <workItem from="1511890547424" duration="3447000" />
       <workItem from="1511941045847" duration="273000" />
       <workItem from="1511951412263" duration="632000" />
-      <workItem from="1512562868420" duration="9178000" />
+      <workItem from="1512562868420" duration="9351000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTest_moneyUnknownCurrencyTest - 2017.12.06 at 17h 20m 08s.xml">
-      <configuration name="SeleniumTest.moneyUnknownCurrencyTest" configurationId="JUnit" />
+    <history-entry file="SeleniumTest - 2017.12.06 at 17h 44m 27s.xml">
+      <configuration name="SeleniumTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SeleniumTest_moneyUnknownOperationTest - 2017.12.06 at 17h 33m 17s.xml">
       <configuration name="SeleniumTest.moneyUnknownOperationTest" configurationId="JUnit" />
@@ -382,11 +378,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13530000" />
+    <option name="totallyTimeSpent" value="13703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1037" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -396,7 +391,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3314978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -434,9 +429,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,9 +437,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -473,11 +464,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/SeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="310" column="9" lean-forward="true" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

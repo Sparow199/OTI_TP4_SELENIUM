@@ -4,10 +4,13 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.io.File;
+
 import org.apache.commons.io.FileUtils;
 
 import static org.junit.Assert.*;
+
 import org.junit.*;
 import org.junit.Test;
 
@@ -50,7 +53,7 @@ public class SeleniumTest {
 
 
         // Wait for the page to load, timeout after 10 seconds, stop when results present
-        new WebDriverWait(driver, 10).until(new ExpectedCondition < Boolean > () {
+        new WebDriverWait(driver, 10).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
                 return d.findElement(By.id("res")).isDisplayed();
             }
